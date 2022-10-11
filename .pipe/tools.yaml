@@ -6,10 +6,6 @@ infos:
     pipe:
       - name: spl-pipe-python
         script: D:\open\spl-template\src\script.py
-    plugin:
-      - name: ../../plugin/basic/dist/index.js
-        server: user-report
-
 
 
 
