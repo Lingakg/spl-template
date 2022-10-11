@@ -1,0 +1,15 @@
+infos:
+  - name: console
+    icon: fav.ico
+    type: command
+    process-name: console
+    pipe:
+      - name: spl-pipe-python
+        script: D:\open\spl-template\src\script.py
+    plugin:
+      - name: ../../plugin/basic/dist/index.js
+        server: user-report
+
+
+
+
